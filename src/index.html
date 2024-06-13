@@ -5,7 +5,42 @@
     <title>Dataverse</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+    <section>
+      <header>
+        <h1>The Wonderful World of Marvel</h1>
+      </header>
+    </section>
+
+    <main>
+      <h2>Your guide to the incredible Marvel Cinematic Universe. Here you'll find detailed information about each movie. Dive into the exciting stories of your favorite superheroes and discover fascinating facts that make Marvel a unique cinematic experience.</h2>
+      <section>
+        <h2>Feature movie</h2>
+      </section>
+      <section>
+        <label for="filter">Filter by</label>  
+        <select id="filter" data-testid="select-filter" name="year">
+          <option value="year">Year</option>
+          <option value="2005-2010">2005-2010</option>
+          <option value="2010-2015">2010-2015</option>
+          <option value="2015-2020">2015-2020</option>
+          <option value="2020-2023">2020-2023</option>
+       </select>
+
+        <label for="sort">Sort by</label>  
+        <select id="sort" data-testid="select-sort" name="orderOptions">
+          <option value="asc">Latest</option>
+          <option value="desc">Oldest</option>
+        </select>
+  
+        <button data-testid="button-clear"> Clean filters</button>
+      </section>
+      <section id="root"></section>
+    </main>
+    
+    <footer>© 2024 By Dev06</footer>
+
     <script src="main.js" type="module"></script>
   </body>
 </html>
