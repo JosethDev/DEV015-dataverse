@@ -1,378 +1,308 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "id": "iron_man_2008",
+    "name": "Iron Man",
+    "shortDescription": "Tony Stark builds a suit of armor to escape captivity.",
+    "description": "Iron Man introduces billionaire industrialist Tony Stark, who is captured by enemy forces while demonstrating new weapons technology. Stark builds a powerful suit of armor to escape, marking the birth of the legendary superhero Iron Man. As Stark embraces his alter ego, he faces challenges from within his own company and threats from adversaries seeking to exploit his technology. With wit, intelligence, and a suit of high-tech armor, Iron Man must confront his own past and protect the world from imminent danger.",
+    "imageUrl": "https://i.pinimg.com/564x/f9/90/00/f990004bf5be977c963b43fd843c3b50.jpg",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+      "year": 2008,
+      "rating": "7.9",
+      "director": "Jon Favreau",
+      "duration": "126 min"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+  },
+  {
+    "id": "incredible_hulk_2008",
+    "name": "The Incredible Hulk",
+    "shortDescription": "Bruce Banner seeks a cure for his Hulk condition.",
+    "description": "follows scientist Bruce Banner, who, after a lab accident, transforms into a giant green monster whenever he experiences intense anger. On the run from the military, which seeks to weaponize his condition, Banner searches for a cure while evading capture. His quest leads him to face off against the ruthless General Thunderbolt Ross and his own inner demons. As Banner struggles to control his transformations, he must also confront a new threat in the form of the equally powerful Abomination, leading to a climactic battle that will test the limits of his strength and resolve.",
+    "imageUrl": "https://i.pinimg.com/564x/5d/fd/be/5dfdbe1af9898cbe687650070b0da328.jpg",
+    "facts": {
+      "year": 2008,
+      "rating": "6.7",
+      "director": "Louis Leterrier",
+      "duration": "112 min"
+    },
+
+  },
+  {
+    "id": "iron_man_2_2010",
+    "name": "Iron Man 2",
+    "shortDescription": "Tony Stark faces government pressures, a new rival, and his own mortality while protecting his loved ones.",
+    "description": "Iron Man 2 continues the story of Tony Stark as he faces new challenges. The world is aware of his dual life as a billionaire inventor and superhero, and governments and rival inventors are eager to replicate his technology. Stark must navigate these pressures while dealing with his health issues caused by the arc reactor in his chest. Meanwhile, a new foe, Ivan Vanko, emerges with his own arc reactor-powered suit as Whiplash. With the help of his friend James 'Rhodey' Rhodes, Stark confronts these threats, culminating in a climactic battle at the Stark Expo.",
+    "imageUrl": "https://image.tmdb.org/t/p/original/3TVd7B5JFB8MtVQ2CvWnOQ3HKem.jpg",
+    "facts": {
+      "year": 2010,
+      "rating": "7.0",
+      "director": "Jon Favreau",
+      "duration": "124 min"
+    },
+  },
+  {
+    "id": "thor_2011",
+    "name": "Thor",
+    "shortDescription": "Thor, the God of Thunder, is cast out of Asgard.",
+    "description": "Thor, the arrogant prince of Asgard, is banished to Earth by his father Odin after reigniting an ancient war. Stripped of his powers and his mighty hammer Mjolnir, Thor must learn humility and redemption. On Earth, he meets astrophysicist Jane Foster and her team, forming a bond with Jane while encountering SHIELD agents. Meanwhile, Thor's brother Loki schemes to seize the throne of Asgard. Thor faces the Destroyer, a powerful Asgardian weapon, to prove himself worthy of Mjolnir. Through sacrifice and selflessness, Thor regains his powers and returns to Asgard to confront Loki and save both realms from destruction.",
+    "imageUrl": "https://image.tmdb.org/t/p/original/prSfAi1xGrhLQNxVSUFh61xQ4Qy.jpg",
+    "facts": {
+      "year": 2011,
+      "rating": "7.0",
+      "director": "Kenneth Branagh",
+      "duration": "115 min"
+    },
+  },
+  {
+    "id": "captain_america_2011",
+    "name": "Captain America: The First Avenger",
+    "shortDescription": "Steve Rogers becomes a super soldier and battles the villainous Red Skull.",
+    "description": "Steve Rogers, a frail young man deemed unfit for military service, volunteers for a top-secret research project that transforms him into the super-soldier Captain America. With his enhanced strength, agility, and trusty shield, Captain America battles the evil HYDRA organization led by the villainous Red Skull during World War II. Alongside his comrades, including Peggy Carter and Howard Stark, Captain America embodies the virtues of heroism, sacrifice, and righteousness, ultimately facing a climactic showdown with Red Skull that will test his resolve and reshape the course of history.",
+    "imageUrl": "https://m.media-amazon.com/images/I/51Xp+8qDCbL._AC_.jpg",
+    "facts": {
+      "year": 2011,
+      "rating": "6.9",
+      "director": "Joe Johnston",
+      "duration": "124 min"
+    },
+
+  },
+  {
+    "id": "avengers_2012",
+    "name": "The Avengers",
+    "shortDescription": "Earth's mightiest heroes team up to save the world.",
+    "description": " Earth's mightiest heroes - Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye - are brought together by S.H.I.E.L.D. director Nick Fury to form the Avengers. Their mission is to stop the mischievous Loki, who has stolen the powerful Tesseract and threatens to conquer Earth. As the team learns to work together, they must also overcome their own differences and egos to become a cohesive unit. With epic battles, witty banter, and explosive action, The Avengers is a thrilling superhero ensemble that sets the stage for an interconnected cinematic universe unlike any other.",
+    "imageUrl": "https://i.ebayimg.com/images/g/ZbUAAOSwXPtkxVyM/s-l1600.webp",
+    "facts": {
+      "year": 2012,
+      "rating": "8.0",
+      "director": "Joss Whedon",
+      "duration": "143 min"
+    },
+
+  },
+  {
+    "id": "iron_man_3_2013",
+    "name": "Iron Man 3",
+    "shortDescription": "Tony Stark faces a formidable enemy called the Mandarin.",
+    "description": "Tony Stark faces a powerful enemy, the terrorist known as the Mandarin, who launches a series of devastating attacks. Stripped of his resources and forced to rely on his ingenuity and instincts, Stark embarks on a quest to protect his loved ones and uncover the truth behind the Mandarin's sinister plot. Battling his inner demons and grappling with the consequences of his past actions, Stark must confront the limits of his technology and the strength of his will. With unexpected allies and heart-pounding action, 'Iron Man 3' explores themes of redemption, resilience, and the true meaning of heroism.",
+    "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_912535-MLA52539341498_112022-F.webp",
+    "facts": {
+      "year": 2013,
+      "rating": "7.1",
+      "director": "Shane Black",
+      "duration": "130 min"
+    },
+
+  },
+  {
+    "id": "thor_dark_world_2013",
+    "name": "Thor: The Dark World",
+    "shortDescription": "Thor battles an ancient race of Dark Elves.",
+    "description": "Thor is a superhero film based on the Marvel Comics character Thor. It is the sequel to the 2011 film 'Thor' and is part of the Marvel Cinematic Universe (MCU). In this movie, Thor fights to save the Nine Realms from an ancient race led by the vengeful Malekith, who seeks to plunge the universe into absolute darkness using a powerful artifact called the Aether. Thor forms an unlikely alliance with his adoptive brother, Loki, as he faces personal challenges and the need to make difficult decisions to protect his people and the universe.",
+    "imageUrl": "https://ew.com/thmb/4kqxOjcrf5APXxZllefwMcxI35Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/thor-dark-world-poster-a2c56113bf284a22942c0ef46395c5df.jpg",
+    "facts": {
+      "year": 2013,
+      "rating": "6.9",
+      "director": "Alan Taylor",
+      "duration": "112 min"
+    },
+
+  },
+  {
+    "id": "captain_america_winter_soldier",
+    "name": "Captain America: The Winter Soldier",
+    "shortDescription": "Captain America faces a new threat from an old friend.",
+    "description": "Steve Rogers, struggles to adapt to life in the modern world while working for the espionage agency S.H.I.E.L.D. When a conspiracy emerges within S.H.I.E.L.D., Rogers teams up with Black Widow and the Falcon to uncover the truth. They soon find themselves up against the Winter Soldier, a mysterious assassin with a link to Rogers' past. As the conspiracy deepens and old enemies resurface, Captain America and his allies must fight to expose the truth and protect the world from a sinister new threat that could have devastating consequences.",
+    "imageUrl": "https://im.ziffdavisinternational.com/ign_es/screenshot/c/capitan-america-2-tres-carteles-de-sus-protagonist/capitan-america-2-tres-carteles-de-sus-protagonist_f8pv.jpg",
+    "facts": {
+      "year": 2014,
+      "rating": "7.7",
+      "director": "Anthony and Joe Russo",
+      "duration": "136 min"
+    },
+  },
+  {
+    "id": "guardians_of_the_galaxy_2014",
+    "name": "Guardians of the Galaxy",
+    "shortDescription": "A group of misfits bands together to save the galaxy.",
+    "description": "A group of intergalactic misfits - Peter Quill, Gamora, Drax the Destroyer, Rocket, and Groot - find themselves in possession of a powerful orb sought after by the villainous Ronan the Accuser. Forced to work together despite their differences, embark on a wild adventure across the cosmos to evade Ronan and his minions. Along the way, they form a bond and discover the true power of friendship and teamwork. With its blend of humor, action, and heart, 'Guardians of the Galaxy' is a thrilling space opera that introduces a new band of unlikely heroes to the Marvel Cinematic Universe.",
+    "imageUrl": "https://pics.filmaffinity.com/guardians_of_the_galaxy-595487268-large.jpg",
+    "facts": {
+      "year": 2014,
+      "rating": "8.0",
+      "director": "James Gunn",
+      "duration": "121 min"
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "id": "avengers_age_of_ultron_2015",
+    "name": "Avengers: Age of Ultron",
+    "shortDescription": "The Avengers face a new threat from the AI Ultron.",
+    "description": "the Avengers - Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye - reassemble to defeat the sentient robot Ultron, created by Tony Stark as a peacekeeping program. Ultron turns against humanity, believing the only way to save Earth is to eradicate humanity. The Avengers must battle not only Ultron and his army of drones but also confront their own inner demons and conflicts. With new allies like Vision and Scarlet Witch, the Avengers face their greatest challenge yet, testing their unity and resolve in a battle that will determine the fate of the world.",
+    "imageUrl": "https://m.media-amazon.com/images/I/7155LkI6wlL._AC_SL1015_.jpg",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+      "year": 2015,
+      "rating": "7.3",
+      "director": "Joss Whedon",
+      "duration": "141 min"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+  },
+  {
+    "id": "ant_man_2015",
+    "name": "Ant-Man",
+    "shortDescription": "A con man gains the ability to shrink and must save the world.",
+    "description": "Scott Lang, a master thief, is recruited by scientist Hank Pym to become the new Ant-Man, a superhero with the ability to shrink in size but increase in strength. Together with Pym's daughter, Hope van Dyne, they must pull off a heist to stop Pym's former protégé, Darren Cross, from using Pym's technology for evil. As Lang learns to harness the power of the Ant-Man suit, he must also navigate his newfound role as a hero and reconcile with his past mistakes. With humor, heart, and inventive action sequences, 'Ant-Man' delivers a fresh and entertaining take on the superhero genre.",
+    "imageUrl": "https://i.pinimg.com/564x/f5/08/a8/f508a8133fa78968a26e7091bf325716.jpg",
+    "facts": {
+      "year": 2015,
+      "rating": "7.3",
+      "director": "Peyton Reed",
+      "duration": "117 min"
+    },
+  },
+  {
+    "id": "captain_america_civil_war_2016",
+    "name": "Captain America: Civil War",
+    "shortDescription": "Sees the Avengers divided over government oversight, leading to an epic clash between former allies",
+    "description": "The Avengers are divided over the Sokovia Accords, which would establish oversight and control over the team by the United Nations. Iron Man supports the Accords, believing in accountability, while Captain America is against them, fearing that political interference could compromise the team's ability to act when necessary. The debate escalates into an all-out battle between former allies, with each side recruiting additional heroes to their cause. As the conflict intensifies, long-buried secrets and personal vendettas come to light, leading to a showdown that will change the Avengers forever.",
+    "imageUrl": "https://i.ebayimg.com/images/g/zz8AAOSw3OVjPM6f/s-l1600.webp",
+    "facts": {
+      "year": 2016,
+      "rating": "7.8",
+      "director": "Anthony Russo, Joe Russo",
+      "duration": "147 min"
+    },
+  },
+  {
+    "id": "doctor_strange_2016",
+    "name": "Doctor Strange",
+    "shortDescription": "A surgeon turns to magic to heal his hands and fight evil.",
+    "description": "gifted but arrogant neurosurgeon Stephen Strange's life changes forever after a car accident leaves him with severe hand injuries, ending his career. Desperate to heal his hands, Strange travels to Nepal, where he encounters the Ancient One, a sorcerer who teaches him the mystic arts. As he delves into the world of magic and alternate dimensions, Strange must harness his newfound powers to protect the world from the malevolent sorcerer Kaecilius, who seeks to merge the dark dimension with Earth. With mind-bending visuals and a compelling origin story, 'Doctor Strange' explores themes of spirituality, redemption, and the nature of reality.",
+    "imageUrl": "https://i.pinimg.com/564x/91/13/79/911379ee2a1bc5388414ec692aea80d7.jpg",
+    "facts": {
+      "year": 2016,
+      "rating": "7.5",
+      "director": "Scott Derrickson"
+    },
+  },
+  {
+    "id": "guardians_galaxy_vol_2_2017",
+    "name": "Guardians of the Galaxy Vol. 2",
+    "shortDescription": "The Guardians uncover the mystery of Peter Quill's parentage.",
+    "description": "the Guardians - Peter Quill, Gamora, Drax, Rocket, and Groot - embark on a new adventure as they unravel the mystery of Peter's parentage. Along the way, they encounter old foes and new allies, including the enigmatic Ego, who claims to be Peter's father. As they navigate through dazzling new worlds and face dangerous enemies, the Guardians must confront their own inner demons and learn the true meaning of family. With its signature blend of humor, heart, and epic sci-fi action, 'Guardians of the Galaxy Vol. 2' is a thrilling ride that explores the bonds that unite us all.",
+    "imageUrl": "https://m.media-amazon.com/images/I/71K+P8n6sGL._AC_SY879_.jpg",
+    "facts": {
+      "year": 2017,
+      "rating": "7.6",
+      "director": "James Gunn"
+    },
+  },
+  {
+    "id": "spider_man_homecoming_2017",
+    "name": "Spider-Man: Homecoming",
+    "shortDescription": "Peter Parker balances high school and his superhero life.",
+    "description": "young Peter Parker navigates the challenges of high school while also balancing his life as the friendly neighborhood Spider-Man. Eager to prove himself as more than just a 'friendly neighborhood Spider-Man,' Peter sets out to stop the villainous Vulture, who threatens to unleash chaos in New York City. With the help of his mentor, Tony Stark, Peter learns valuable lessons about heroism, responsibility, and what it truly means to be a hero. Filled with humor, heart, and thrilling action sequences, 'Spider-Man: Homecoming' captures the essence of the iconic superhero while offering a fresh and relatable take on the character.",
+    "imageUrl": "https://m.media-amazon.com/images/I/71HQ7lBgbGL._AC_SL1000_.jpg",
+    "facts": {
+      "year": 2017,
+      "rating": "7.4",
+      "director": "Jon Watts"
+    },
+  },
+  {
+    "id": "thor_ragnarok_2017",
+    "name": "Thor: Ragnarok",
+    "shortDescription": "Thor must prevent the end of Asgard and stop Hela.",
+    "description": "Thor finds himself imprisoned on the distant planet Sakaar, stripped of his mighty hammer, Mjölnir. There, he must survive gladiatorial battles orchestrated by the eccentric Grandmaster and reunite with old ally Hulk. Meanwhile, the ruthless Hela, Goddess of Death, has taken over Asgard, threatening its destruction. To save his home and prevent Ragnarok—the prophesied end of Asgardian civilization—Thor must assemble a team, including his treacherous brother Loki and the fierce Valkyrie. With a blend of humor, epic battles, and vibrant visuals, 'Thor: Ragnarok' reinvents the Thor franchise, delivering an action-packed adventure.",
+    "imageUrl": "https://i.ebayimg.com/images/g/7VsAAOSwH35Zn5-g/s-l500.jpg",
+    "facts": {
+      "year": 2017,
+      "rating": "7.9",
+      "director": "Taika Waititi"
+    },
+  },
+  {
+    "id": "black_panther_2018",
+    "name": "Black Panther",
+    "shortDescription": "T'Challa returns to Wakanda to claim his throne.",
+    "description": "In the technologically advanced African nation of Wakanda, T'Challa (Chadwick Boseman) assumes the throne as king following his father's death. As the Black Panther, he must protect his people and their way of life from threats both internal and external. However, when an old enemy reappears, T'Challa is drawn into a conflict that puts the fate of Wakanda and the entire world at risk. With his allies by his side, including the fierce warrior Okoye (Danai Gurira) and his genius sister Shuri (Letitia Wright), T'Challa confronts his past and family legacy, fighting to secure his nation's future.",
+    "imageUrl": "https://m.media-amazon.com/images/I/A1PaCX4oXjL._AC_SL1500_.jpg",
+    "facts": {
+      "year": 2018,
+      "rating": "7.3",
+      "director": "Ryan Coogler"
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "id": "avengers_infinity_war_2018",
+    "name": "Avengers: Infinity War",
+    "shortDescription": "The Avengers battle Thanos to stop his quest for the Infinity Stones.",
+    "description": "In Avengers: Infinity War, the Avengers and their allies unite against the powerful alien warlord Thanos (Josh Brolin), who seeks to acquire all six Infinity Stones. With these stones, Thanos could alter reality and destroy the universe. Iron Man (Robert Downey Jr.), Captain America (Chris Evans), Thor (Chris Hemsworth), Hulk (Mark Ruffalo), Black Widow (Scarlett Johansson), and other Avengers join forces with the Guardians of the Galaxy and more heroes from the Marvel Cinematic Universe. Facing imminent danger, the Avengers must be willing to make unthinkable sacrifices to stop Thanos and save the universe.",
+    "imageUrl": "https://i5.walmartimages.com/asr/65e23347-2ccc-4581-9700-581e0ea9c3a8.a808f8889bfa9e368659fbefc5e5dda4.jpeg",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+      "year": 2018,
+      "rating": "8.4",
+      "director": "Anthony Russo, Joe Russo"
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "id": "ant_man_and_wasp_2018",
+    "name": "Ant-Man and the Wasp",
+    "shortDescription": "Scott Lang teams up with the Wasp to uncover secrets from the past.",
+    "description": "Scott Lang faces the repercussions of his dual life as a superhero and a parent. While under house arrest post 'Captain America: Civil War,' he's enlisted by Hope van Dyne (Evangeline Lilly) and Dr. Hank Pym (Michael Douglas) for a new mission. Their quest unveils hidden truths, culminating in a showdown with a formidable new foe. As they grapple with personal and external challenges, Ant-Man and the Wasp must combine their shrinking and growing powers to save the world from Ghost (Hannah John-Kamen), a formidable enemy with phasing abilities, and unravel the mysteries of their past.",
+    "imageUrl": "https://i.pinimg.com/564x/1b/4b/fe/1b4bfee2454cae209ad096d309c621cc.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+      "year": 2018,
+      "rating": "7.0",
+      "director": "Peyton Reed"
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "id": "captain_marvel_2019",
+    "name": "Captain Marvel",
+    "shortDescription": "Carol Danvers becomes one of the universe's most powerful heroes.",
+    "description": "Carol Danvers becomes one of the universe's most powerful heroes during a galactic war between two alien races. After her experimental aircraft crashes, Air Force pilot Carol is found by the Kree and trained as part of the elite Starforce Military under her mentor, Yon-Rogg (Jude Law). Six years later, while evading Skrull attackers, Carol lands on Earth and uncovers her true identity as Captain Marvel. With Nick Fury's  help, she delves into her past, harnesses her powers, and strives to bring an end to the conflict, aiming to restore peace to the galaxy.",
+    "imageUrl": "https://f.rpp-noticias.io/2018/12/03/720182capitanamarvelposter2019final-c53ad30badae9fce1002852a37cb90fdjpg.jpg",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "year": 2019,
+      "rating": "6.8",
+      "director": "Anna Boden, Ryan Fleck"
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "id": "avengers_endgame_2019",
+    "name": "Avengers: Endgame",
+    "shortDescription": "The Avengers assemble to reverse the damage caused by Thanos.",
+    "description": "Avengers: Endgame, the surviving Avengers and allies unite to undo the damage caused by Thanos in 'Avengers: Infinity War.' Thanos had used the Infinity Stones to erase half of all life in the universe. The Avengers embark on a desperate mission to reverse this devastation. As they grapple with their losses and seek a way to undo Thanos' actions, old and new allies join them in an epic battle. With the universe's fate hanging in the balance, the Avengers must be ready to sacrifice everything to restore balance and bring back those they've lost.",
+    "imageUrl": "https://m.media-amazon.com/images/I/61RhWaYBp7L._AC_SY879_.jpg",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "year": 2019,
+      "rating": "8.4",
+      "director": "Anthony Russo, Joe Russo"
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    "id": "spider_man_far_from_home_2019",
+    "name": "Spider-Man: Far From Home",
+    "shortDescription": "Peter Parker faces new threats while on a school trip to Europe.",
+    "description": "Peter Parker embarks on a school trip to Europe with his classmates, hoping to take a break from being Spider-Man and confess his feelings to MJ . However, his plans are put on hold when Nick Fury recruits him to team up with Quentin Beck , also known as Mysterio, to battle the Elementals, creatures that can manipulate natural elements. As Peter tries to juggle his responsibilities as Spider-Man with his desire for a normal life, he soon discovers that things are not as they seem, and he must confront the true nature of Mysterio's intentions.",
+    "imageUrl": "https://m.media-amazon.com/images/I/910t9BoIymL._AC_SY879_.jpg",
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+      "year": 2019,
+      "rating": "7.5",
+      "director": "Jon Watts"
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    "id": "black_widow_2021",
+    "name": "Black Widow",
+    "shortDescription": "Natasha Romanoff confronts her past as a spy and assassin.",
+    "description": "Natasha Romanoff (Scarlett Johansson) confronts her murky past when a dangerous conspiracy resurfaces, forcing her to deal with her history as a spy. Pursued relentlessly, she must reconcile her past and broken relationships, aided by her sister figure, Yelena Belova (Florence Pugh), and allies. Together, they seek the source of the conspiracy and face off against Taskmaster. In this journey, Natasha confronts her past, both as a spy and as an Avenger, in a quest for redemption and to bring down the formidable threat.",
+    "imageUrl": "https://m.media-amazon.com/images/I/91-liN-0JbS._AC_SY879_.jpg",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
-    }
-  },
-  {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
-    "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
-    }
-  },
-  {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
-    "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
-    }
-  },
-  {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
-    }
-  },
-  {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
-    "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
-    }
-  },
-  {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
-    "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
-    }
-  },
-  {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
-    "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
-    }
-  },
-  {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
-    }
-  },
-  {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
-    }
-  },
-  {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
-    }
-  },
-  {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
-    "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
-    }
-  },
-  {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
-    },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
-    }
-  },
-  {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
-    "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
-    },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
-    }
-  },
-  {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
-    "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
-    }
-  },
-  {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
-    "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
-  },
-  {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
-  },
-  {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": ""
+      "year": 2021,
+      "rating": "6.8",
+      "director": "Cate Shortland"
     }
   }
 ];
