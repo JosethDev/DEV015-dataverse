@@ -1,0 +1,140 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  margin: 0px;
+}
+header {
+  background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)),
+    url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2019/03/Vengadores%20Infinity%20War.jpg?tf=2048x");
+  background-size: cover; /* Ajusta el tamaño de la imagen */
+  background-position: center;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  padding-left: 80px;
+}
+
+h1 {
+  font-size: 56px;
+  width: 520px;
+  height: 120px;
+  margin: 5px;
+  line-height: 1;
+}
+h2 {
+  font-size: 15px;
+  width: 452px;
+  height: 100px;
+  font-weight: 300;
+  margin: 5px;
+}
+
+p {
+  width: 300px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 36px;
+  margin-left: 130px;
+}
+
+select {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 7px;
+  margin: 4px;
+}
+
+option {
+  font-size: 12px;
+  padding: 10px;
+}
+
+#filter {
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+#sort {
+  border-radius: 6px;
+  margin-right: 25px;
+}
+
+button
+{
+  font-size: 14px;
+  height: 33.5px;
+  border-radius: 6px;
+  width: 120px;
+  border-color: #FFC700;
+  background-color: #FFC700;
+  border: 0px;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 0.5s;
+}
+
+footer
+{
+  padding-left: 44%;
+  padding-right: 30%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+img{
+  width: 215px;
+  height: 318.2px;
+  border-radius: 14px;
+}
+
+.rating-image{
+  width: 35px;
+  height: 17px;
+  border-radius: 0px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  list-style-type: none;
+}
+
+dt{
+ display:none;
+}
+
+dl{
+  display: flex;
+}
+
+.item{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+word-wrap: break-word;
+width: 500px;
+height: 280px;
+margin: 10px;
+color: black;
+border-radius: 6px;
+padding-left: 25px;
+background: rgb(237, 237, 237);
+position: relative;
+
+}
+
+.rating-image {
+  width: 30px; /* Ancho deseado */
+  height: auto;
+}
+
+img{
+width: 154px; /* Ancho deseado */
+height: auto;
+border-radius: 10px;
+}
