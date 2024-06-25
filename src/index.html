@@ -22,22 +22,30 @@
         <p>Feature movie</p>
       </section>
       <section>
-        <label for="filter">Filter by</label>
-        <select id="filter" data-testid="select-filter" name="year">
-          <option value="year">Year</option>
+        <label for="filter-year">Year</label>
+        <select id="filter-year" data-testid="filter-year" name="filter-year">
+          <option value="all">All</option>
           <option value="2005-2010">2005-2010</option>
           <option value="2010-2015">2010-2015</option>
           <option value="2015-2020">2015-2020</option>
           <option value="2020-2023">2020-2023</option>
        </select>
 
+       <label for="filter-rating">Rating</label>
+       <select id="filter-rating" data-testid="filter-rating" name="filter-rating">
+        <option value="all">All</option>
+        <option value="1-4">1-4</option>
+        <option value="4-7">4-7</option>
+        <option value="7-10">7-10</option>
+     </select>
+
         <label for="sort">Sort by</label>
         <select id="sort" data-testid="select-sort" name="orderOptions">
-          <option value="asc">Latest</option>
-          <option value="desc">Oldest</option>
+          <option value="desc">Latest</option>
+          <option value="asc">Oldest</option>
         </select>
 
-        <button data-testid="button-clear"> Clean filters</button>
+        <button data-test id="button-clear"> Clean filters</button>
       </section>
     </main>
     <section id="root"></section>
