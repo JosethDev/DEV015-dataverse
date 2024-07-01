@@ -1,5 +1,5 @@
 import { renderItems } from './view.js';
-import { filterDataYear, filterDataRating, sortData } from './dataFunctions.js';
+import { filterDataYear, filterDataRating, sortData, calculateAverageRating, calculateAwardsReceived,calculateTotalAudience } from './dataFunctions.js';
 import data from './data/dataset.js';
 
 // Seleccionar elementos usando querySelector
@@ -42,3 +42,33 @@ function clearFilters() {
   
   applyFilters(); // Aplicar filtros después de limpiar
 }
+
+function initStatistics() {
+  // Calcular el rating promedio
+  const averageRating = calculateAverageRating(data);
+
+  // Calcular el total de premios recibidos
+  const totalAwardsReceived = calculateAwardsReceived(data);
+
+  // Calcular el total de audiencia
+  const totalAudience = calculateTotalAudience(data);
+
+  // Actualizar el DOM con el rating promedio, total de premios y total de audiencia
+  const averageRatingElement = document.getElementById('average-rating');
+  if (averageRatingElement) {
+    averageRatingElement.textContent = averageRating;
+  }
+
+  const awardsReceivedElement = document.getElementById('awards-received');
+  if (awardsReceivedElement) {
+    awardsReceivedElement.textContent = totalAwardsReceived;
+  }
+
+  const totalAudienceElement = document.getElementById('total-audience');
+  if (totalAudienceElement) {
+    totalAudienceElement.textContent = totalAudience;
+  }
+}
+
+// Llamar a la función initStatistics cuando se cargue la página
+document.addEventListener('DOMContentLoaded', initStatistics);
