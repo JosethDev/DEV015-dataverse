@@ -22,8 +22,8 @@ h1 {
 }
 h2 {
   font-size: 15px;
-  width: 452px;
-  height: 100px;
+  width: 400px;
+  height: 42px;
   font-weight: 300;
   margin: 5px;
 }
@@ -35,9 +35,29 @@ p {
   font-size: 36px;
   margin-left: 50px;
 }
+.stats {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: leftn;
+  gap: 30px;
+}
+.stat-item {
+  text-align: center;
+}
+
+.stat-item div:first-child {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.stat-item div:last-child {
+  font-size: 14px;
+  font-weight: 600;
+}
 
 select {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
   padding: 7px;
   margin: 4px;
@@ -139,6 +159,20 @@ height: auto;
 border-radius: 10px;
 }
 
+
+.stats{
+  margin-top: 38px;
+  margin-bottom: 25px;
+}
+/* Estilo base para los elementos que contienen los números */
+.stats .stat-item {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
 @media (max-width: 768px) {
   header {
     padding: 40px 20px;
@@ -207,3 +241,4 @@ border-radius: 10px;
     margin-right: 10px;
   }
 }
+

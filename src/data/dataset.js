@@ -11,6 +11,10 @@ export default [
       "director": "Jon Favreau",
       "duration": "126 min"
     },
+    "extraInfo": {
+      "awards": 22,
+      "audience": 65 
+    }
   },
   {
     "id": "incredible_hulk_2008",
@@ -24,7 +28,10 @@ export default [
       "director": "Louis Leterrier",
       "duration": "112 min"
     },
-
+    "extraInfo": {
+      "awards": 3,
+      "audience": 29
+    }
   },
   {
     "id": "iron_man_2_2010",
@@ -38,6 +45,10 @@ export default [
       "director": "Jon Favreau",
       "duration": "124 min"
     },
+    "extraInfo": {
+      "awards": 7,
+      "audience": 69 
+    }
   },
   {
     "id": "thor_2011",
@@ -51,6 +62,10 @@ export default [
       "director": "Kenneth Branagh",
       "duration": "115 min"
     },
+    "extraInfo": {
+      "awards": 5,
+      "audience": 50 
+    }
   },
   {
     "id": "captain_america_2011",
@@ -64,7 +79,10 @@ export default [
       "director": "Joe Johnston",
       "duration": "124 min"
     },
-
+    "extraInfo": {
+      "awards": 7,
+      "audience": 41 
+    }
   },
   {
     "id": "avengers_2012",
@@ -78,7 +96,10 @@ export default [
       "director": "Joss Whedon",
       "duration": "143 min"
     },
-
+    "extraInfo": {
+      "awards":38,
+      "audience": 169
+    }
   },
   {
     "id": "iron_man_3_2013",
@@ -92,7 +113,10 @@ export default [
       "director": "Shane Black",
       "duration": "130 min"
     },
-
+    "extraInfo": {
+      "awards": 18,
+      "audience": 135 
+    }
   },
   {
     "id": "thor_dark_world_2013",
@@ -106,7 +130,10 @@ export default [
       "director": "Alan Taylor",
       "duration": "112 min"
     },
-
+    "extraInfo": {
+      "awards": 2,
+      "audience": 72 
+    }
   },
   {
     "id": "captain_america_winter_soldier",
@@ -120,6 +147,10 @@ export default [
       "director": "Anthony and Joe Russo",
       "duration": "136 min"
     },
+    "extraInfo": {
+      "awards": 11,
+      "audience": 79
+    }
   },
   {
     "id": "guardians_of_the_galaxy_2014",
@@ -132,6 +163,10 @@ export default [
       "rating": "8.0/10",
       "director": "James Gunn",
       "duration": "121 min"
+    },
+    "extraInfo": {
+      "awards": 52,
+      "audience": 86
     }
   },
   {
@@ -146,6 +181,10 @@ export default [
       "director": "Joss Whedon",
       "duration": "141 min"
     },
+    "extraInfo": {
+      "awards": 6,
+      "audience":  156
+    }
   },
   {
     "id": "ant_man_2015",
@@ -159,6 +198,10 @@ export default [
       "director": "Peyton Reed",
       "duration": "117 min"
     },
+    "extraInfo": {
+      "awards": 3,
+      "audience": 58 
+    }
   },
   {
     "id": "captain_america_civil_war_2016",
@@ -172,6 +215,10 @@ export default [
       "director": "Anthony Russo, Joe Russo",
       "duration": "147 min"
     },
+    "extraInfo": {
+      "awards": 9,
+      "audience": 128 
+    }
   },
   {
     "id": "doctor_strange_2016",
@@ -185,6 +232,10 @@ export default [
       "director": "Scott Derrickson",
       "duration": "115 min"
     },
+    "extraInfo": {
+      "awards": 21,
+      "audience": 75
+    }
   },
   {
     "id": "guardians_galaxy_vol_2_2017",
@@ -198,6 +249,10 @@ export default [
       "director": "James Gunn",
       "duration": "137 min"
     },
+    "extraInfo": {
+      "awards": 15,
+      "audience": 96 
+    }
   },
   {
     "id": "spider_man_homecoming_2017",
@@ -212,6 +267,10 @@ export default [
       "duration": "133 min"
 
     },
+    "extraInfo": {
+      "awards": 8,
+      "audience": 98
+    }
   },
   {
     "id": "thor_ragnarok_2017",
@@ -226,6 +285,10 @@ export default [
       "duration": "130 min"
 
     },
+    "extraInfo": {
+      "awards": 12,
+      "audience": 95 
+    }
   },
   {
     "id": "black_panther_2018",
@@ -239,6 +302,10 @@ export default [
       "director": "Ryan Coogler",
       "duration": "134 min"
 
+    },
+    "extraInfo": {
+      "awards": 112,
+      "audience": 150 
     }
   },
   {
@@ -253,6 +320,10 @@ export default [
       "director": "Anthony Russo, Joe Russo",
       "duration": "149 min"
 
+    },
+    "extraInfo": {
+      "awards": 46,
+      "audience": 228
     }
   },
   {
@@ -267,6 +338,10 @@ export default [
       "director": "Peyton Reed",
       "duration": "118 min"
 
+    },
+    "extraInfo": {
+      "awards": 1,
+      "audience": 69  
     }
   },
   {
@@ -281,6 +356,10 @@ export default [
       "director": "Anna Boden, Ryan Fleck",
       "duration": "124 min"
 
+    },
+    "extraInfo": {
+      "awards": 14,
+      "audience": 125 
     }
   },
   {
@@ -295,6 +374,10 @@ export default [
       "director": "Anthony Russo, Joe Russo",
       "duration": "181 min"
 
+    },
+    "extraInfo": {
+      "awards": 47,
+      "audience": 311 
     }
   },
   {
@@ -309,6 +392,10 @@ export default [
       "director": "Jon Watts",
       "duration": "129 min"
 
+    },
+    "extraInfo": {
+      "awards": 4,
+      "audience": 125 
     }
   },
   {
@@ -323,6 +410,10 @@ export default [
       "director": "Cate Shortland",
       "duration": "134 min"
 
+    },
+    "extraInfo": {
+      "awards": 7,
+      "audience": 42 
     }
   }
 ];
