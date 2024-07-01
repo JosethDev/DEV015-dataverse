@@ -5,7 +5,7 @@ body {
 header {
   background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)),
     url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2019/03/Vengadores%20Infinity%20War.jpg?tf=2048x");
-  background-size: cover; /* Ajusta el tamaño de la imagen */
+  background-size: cover;
   background-position: center;
   color: white;
   padding-top: 80px;
@@ -33,7 +33,7 @@ p {
   height: 50px;
   font-weight: bold;
   font-size: 36px;
-  margin-left: 130px;
+  margin-left: 50px;
 }
 .stats {
   list-style: none;
@@ -120,12 +120,12 @@ img{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 0px;
   list-style-type: none;
 }
 
 dt{
- display:none;
+ display: none;
 }
 
 dl{
@@ -159,6 +159,7 @@ height: auto;
 border-radius: 10px;
 }
 
+
 .stats{
   margin-top: 38px;
   margin-bottom: 25px;
@@ -170,4 +171,74 @@ border-radius: 10px;
   text-align: center;
 }
 
+
+
+@media (max-width: 768px) {
+  header {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 36px;
+    width: 100%;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+  }
+
+  p {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  select, button {
+    width: 60%;
+    margin: 10px 20%;
+    padding: 10px;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+  }
+
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  select, button {
+    width: 45%;
+    margin: 10px 2.5%;
+  }
+  .item {
+    padding-left: 0%;
+    margin-right: 30px;
+    margin-right: 30px;
+  }
+  .cards {
+    padding-left: 20px;
+  }
+  img {
+    width: 150px;
+    height: 248px;
+    margin-left: 10px;
+  }
+  .rating-image {
+    width: 30px;
+    margin-right: 5px;
+  }
+  dd {
+    margin-right: 10px;
+  }
+}
 
