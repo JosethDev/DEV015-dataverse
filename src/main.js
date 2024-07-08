@@ -1,5 +1,5 @@
 import { renderItems } from './view.js';
-import { filterDataYear, filterDataRating, sortData, calculateAverageRating, calculateAwardsReceived,calculateTotalAudience } from './dataFunctions.js';
+import { filterDataYear, filterDataRating, sortData, calculateAverageRating, calculateAwardsReceived, calculateTotalAudience } from './dataFunctions.js';
 import data from './data/dataset.js';
 
 // Seleccionar elementos usando querySelector
@@ -16,6 +16,14 @@ document.addEventListener('DOMContentLoaded', () => {
   // Establecer ordenamiento inicial
   document.querySelector('#sort').value = 'desc'; // 'desc' para latest
   applyFilters(); // Aplicar filtros y ordenamiento inicial
+  // Event listener for play button
+  document.querySelectorAll('.play-button').forEach(button => {
+    button.addEventListener('click', event => {
+      const trailerUrl = event.target.getAttribute('data-trailer');
+      console.log("trailerUrl "+trailerUrl)
+      showTrailerModal(trailerUrl);
+    });
+  });
 });
 
 function applyFilters() {
@@ -39,7 +47,7 @@ function clearFilters() {
   document.querySelector('#filter-year').value = 'all';
   document.querySelector('#filter-rating').value = 'all';
   document.querySelector('#sort').value = 'desc';
-  
+
   applyFilters(); // Aplicar filtros después de limpiar
 }
 
@@ -49,7 +57,6 @@ function initStatistics() {
 
   // Calcular el total de premios recibidos
   const totalAwardsReceived = calculateAwardsReceived(data);
-
   // Calcular el total de audiencia
   const totalAudience = calculateTotalAudience(data);
 
@@ -70,5 +77,40 @@ function initStatistics() {
   }
 }
 
+function showTrailerModal(trailerUrl) {
+  const modal = document.createElement('div');
+  modal.classList.add('modal');
+  modal.innerHTML = `
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <iframe class="trailer-video" src="${trailerUrl}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  const closeButton = modal.querySelector('.close-button');
+  closeButton.addEventListener('click', () => {
+    document.body.removeChild(modal);
+  });
+
+  modal.addEventListener('click', (event) => {
+    if (event.target === modal) {
+      document.body.removeChild(modal);
+    }
+  });
+}
+document.addEventListener('DOMContentLoaded', function() {
+  const toggleButton = document.querySelector('.filter-menu-toggle');
+  const filterMenu = document.querySelector('.filter-menu');
+
+  toggleButton.addEventListener('click', function() {
+    if (filterMenu.style.display === 'none' || filterMenu.style.display === '') {
+      filterMenu.style.display = 'block';
+    } else {
+      filterMenu.style.display = 'none';
+    }
+  });
+});
+
 // Llamar a la función initStatistics cuando se cargue la página
-document.addEventListener('DOMContentLoaded', initStatistics);
+document.addEventListener('DOMContentLoaded', initStatistics)

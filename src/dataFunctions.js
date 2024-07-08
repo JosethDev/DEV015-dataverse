@@ -14,7 +14,7 @@ export function filterDataYear(data, filterValue) {
     }
 
     return accumulator;
-  }, []); 
+  }, []);
   return filteredData;
 }
 
@@ -57,7 +57,6 @@ export function calculateAverageRating(data) {
 
 export function calculateAwardsReceived(data) {
   const totalAwards = data.reduce((accumulator, movie) => {
-    //console.log(`Accumulator: ${accumulator}, Movie Awards: ${movie.extraInfo.awards}`);//
     return accumulator + movie.extraInfo.awards;
   }, 0);
 

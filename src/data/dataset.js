@@ -9,11 +9,12 @@ export default [
       "year": 2008,
       "rating": "7.9/10",
       "director": "Jon Favreau",
-      "duration": "126 min"
+      "duration": "126 min",
+      "trailer":"https://www.youtube.com/embed/8ugaeA-nMTc"
     },
     "extraInfo": {
       "awards": 22,
-      "audience": 65 
+      "audience": 65
     }
   },
   {
@@ -26,7 +27,8 @@ export default [
       "year": 2008,
       "rating": "6.7/10",
       "director": "Louis Leterrier",
-      "duration": "112 min"
+      "duration": "112 min",
+      "trailer":"https://www.youtube.com/embed/xbqNb2PFKKA"
     },
     "extraInfo": {
       "awards": 3,
@@ -43,11 +45,12 @@ export default [
       "year": 2010,
       "rating": "7.0/10",
       "director": "Jon Favreau",
-      "duration": "124 min"
+      "duration": "124 min",
+      "trailer":"https://www.youtube.com/embed/BoohRoVA9WQ"
     },
     "extraInfo": {
       "awards": 7,
-      "audience": 69 
+      "audience": 69
     }
   },
   {
@@ -60,11 +63,12 @@ export default [
       "year": 2011,
       "rating": "7.0/10",
       "director": "Kenneth Branagh",
-      "duration": "115 min"
+      "duration": "115 min",
+      "trailer":"https://www.youtube.com/embed/JOddp-nlNvQ"
     },
     "extraInfo": {
       "awards": 5,
-      "audience": 50 
+      "audience": 50
     }
   },
   {
@@ -77,11 +81,12 @@ export default [
       "year": 2011,
       "rating": "6.9/10",
       "director": "Joe Johnston",
-      "duration": "124 min"
+      "duration": "124 min",
+      "trailer":"https://www.youtube.com/embed/JerVrbLldXw"
     },
     "extraInfo": {
       "awards": 7,
-      "audience": 41 
+      "audience": 41
     }
   },
   {
@@ -94,7 +99,8 @@ export default [
       "year": 2012,
       "rating": "8.0/10",
       "director": "Joss Whedon",
-      "duration": "143 min"
+      "duration": "143 min",
+      "trailer":"https://www.youtube.com/embed/eOrNdBpGMv8"
     },
     "extraInfo": {
       "awards":38,
@@ -111,11 +117,12 @@ export default [
       "year": 2013,
       "rating": "7.1/10",
       "director": "Shane Black",
-      "duration": "130 min"
+      "duration": "130 min",
+      "trailer":"https://www.youtube.com/embed/YLorLVa95Xo"
     },
     "extraInfo": {
       "awards": 18,
-      "audience": 135 
+      "audience": 135
     }
   },
   {
@@ -128,11 +135,12 @@ export default [
       "year": 2013,
       "rating": "6.9/10",
       "director": "Alan Taylor",
-      "duration": "112 min"
+      "duration": "112 min",
+      "trailer":"https://www.youtube.com/embed/npvJ9FTgZbM"
     },
     "extraInfo": {
       "awards": 2,
-      "audience": 72 
+      "audience": 72
     }
   },
   {
@@ -145,7 +153,8 @@ export default [
       "year": 2014,
       "rating": "7.7/10",
       "director": "Anthony and Joe Russo",
-      "duration": "136 min"
+      "duration": "136 min",
+      "trailer":"https://www.youtube.com/embed/7SlILk2WMTI"
     },
     "extraInfo": {
       "awards": 11,
@@ -162,7 +171,8 @@ export default [
       "year": 2014,
       "rating": "8.0/10",
       "director": "James Gunn",
-      "duration": "121 min"
+      "duration": "121 min",
+      "trailer":"https://www.youtube.com/embed/d96cjJhvlMA"
     },
     "extraInfo": {
       "awards": 52,
@@ -179,7 +189,8 @@ export default [
       "year": 2015,
       "rating": "7.3/10",
       "director": "Joss Whedon",
-      "duration": "141 min"
+      "duration": "141 min",
+      "trailer":"https://www.youtube.com/embed/tmeOjFno6Do"
     },
     "extraInfo": {
       "awards": 6,
@@ -196,28 +207,30 @@ export default [
       "year": 2015,
       "rating": "7.3/10",
       "director": "Peyton Reed",
-      "duration": "117 min"
+      "duration": "117 min",
+      "trailer":"https://www.youtube.com/embed/pWdKf3MneyI"
     },
     "extraInfo": {
       "awards": 3,
-      "audience": 58 
+      "audience": 58
     }
   },
   {
     "id": "captain_america_civil_war_2016",
     "name": "Captain America: Civil War",
-    "shortDescription": "Sees the Avengers divided over government oversight, leading to an epic clash between former allies",
+    "shortDescription": "Sees the Avengers divided over government oversight, leading to an epic clash between allies",
     "description": "The Avengers are divided over the Sokovia Accords, which would establish oversight and control over the team by the United Nations. Iron Man supports the Accords, believing in accountability, while Captain America is against them, fearing that political interference could compromise the team's ability to act when necessary. The debate escalates into an all-out battle between former allies, with each side recruiting additional heroes to their cause. As the conflict intensifies, long-buried secrets and personal vendettas come to light, leading to a showdown that will change the Avengers forever.",
     "imageUrl": "https://i.ebayimg.com/images/g/zz8AAOSw3OVjPM6f/s-l1600.webp",
     "facts": {
       "year": 2016,
       "rating": "7.8/10",
       "director": "Anthony Russo, Joe Russo",
-      "duration": "147 min"
+      "duration": "147 min",
+      "trailer":"https://www.youtube.com/embed/dKrVegVI0Us"
     },
     "extraInfo": {
       "awards": 9,
-      "audience": 128 
+      "audience": 128
     }
   },
   {
@@ -230,7 +243,8 @@ export default [
       "year": 2016,
       "rating": "7.5/10",
       "director": "Scott Derrickson",
-      "duration": "115 min"
+      "duration": "115 min",
+      "trailer":"https://www.youtube.com/embed/HSzx-zryEgM"
     },
     "extraInfo": {
       "awards": 21,
@@ -247,11 +261,12 @@ export default [
       "year": 2017,
       "rating": "7.6/10",
       "director": "James Gunn",
-      "duration": "137 min"
+      "duration": "137 min",
+      "trailer":"https://www.youtube.com/embed/dW1BIid8Osg"
     },
     "extraInfo": {
       "awards": 15,
-      "audience": 96 
+      "audience": 96
     }
   },
   {
@@ -264,8 +279,8 @@ export default [
       "year": 2017,
       "rating": "7.4/10",
       "director": "Jon Watts",
-      "duration": "133 min"
-
+      "duration": "133 min",
+      "trailer":"https://www.youtube.com/embed/n9DwoQ7HWvI"
     },
     "extraInfo": {
       "awards": 8,
@@ -282,12 +297,13 @@ export default [
       "year": 2017,
       "rating": "7.9/10",
       "director": "Taika Waititi",
-      "duration": "130 min"
+      "duration": "130 min",
+      "trailer":"https://www.youtube.com/embed/ue80QwXMRHg"
 
     },
     "extraInfo": {
       "awards": 12,
-      "audience": 95 
+      "audience": 95
     }
   },
   {
@@ -300,12 +316,13 @@ export default [
       "year": 2018,
       "rating": "7.3/10",
       "director": "Ryan Coogler",
-      "duration": "134 min"
+      "duration": "134 min",
+      "trailer":"https://www.youtube.com/embed/xjDjIWPwcPU"
 
     },
     "extraInfo": {
       "awards": 112,
-      "audience": 150 
+      "audience": 150
     }
   },
   {
@@ -318,7 +335,8 @@ export default [
       "year": 2018,
       "rating": "8.4/10",
       "director": "Anthony Russo, Joe Russo",
-      "duration": "149 min"
+      "duration": "149 min",
+      "trailer":"https://www.youtube.com/embed/6ZfuNTqbHE8"
 
     },
     "extraInfo": {
@@ -336,12 +354,12 @@ export default [
       "year": 2018,
       "rating": "7.0/10",
       "director": "Peyton Reed",
-      "duration": "118 min"
-
+      "duration": "118 min",
+      "trailer": "https://www.youtube.com/embed/UUkn-enk2RU"
     },
     "extraInfo": {
       "awards": 1,
-      "audience": 69  
+      "audience": 69
     }
   },
   {
@@ -354,12 +372,12 @@ export default [
       "year": 2019,
       "rating": "6.8/10",
       "director": "Anna Boden, Ryan Fleck",
-      "duration": "124 min"
-
+      "duration": "124 min",
+      "trailer":"https://www.youtube.com/embed/Z1BCujX3pw8"
     },
     "extraInfo": {
       "awards": 14,
-      "audience": 125 
+      "audience": 125
     }
   },
   {
@@ -372,12 +390,12 @@ export default [
       "year": 2019,
       "rating": "8.4/10",
       "director": "Anthony Russo, Joe Russo",
-      "duration": "181 min"
-
+      "duration": "181 min",
+      "trailer":"https://www.youtube.com/embed/TcMBFSGVi1c"
     },
     "extraInfo": {
       "awards": 47,
-      "audience": 311 
+      "audience": 311
     }
   },
   {
@@ -390,12 +408,13 @@ export default [
       "year": 2019,
       "rating": "7.5/10",
       "director": "Jon Watts",
-      "duration": "129 min"
+      "duration": "129 min",
+      "trailer":"https://www.youtube.com/embed/DYYtuKyMtY8"
 
     },
     "extraInfo": {
       "awards": 4,
-      "audience": 125 
+      "audience": 125
     }
   },
   {
@@ -408,12 +427,13 @@ export default [
       "year": 2021,
       "rating": "6.8/10",
       "director": "Cate Shortland",
-      "duration": "134 min"
+      "duration": "134 min",
+      "trailer":"https://www.youtube.com/embed/Fp9pNPdNwjI"
 
     },
     "extraInfo": {
       "awards": 7,
-      "audience": 42 
+      "audience": 42
     }
   }
 ];

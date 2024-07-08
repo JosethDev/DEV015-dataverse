@@ -1,4 +1,4 @@
-import { filterDataYear, filterDataRating, sortData} from '../src/dataFunctions.js';
+import { filterDataYear, filterDataRating, sortData, calculateAverageRating, calculateAwardsReceived, calculateTotalAudience} from '../src/dataFunctions.js';
 import { data } from './data.js';
 
 describe('filterDataYear', () => {
@@ -96,3 +96,45 @@ describe('sortData', () => {
   });
 
 });
+describe('calculateAverageRating', () => {
+  it('calculates the average rating correctly', () => {
+    const result = calculateAverageRating(data);
+    const expectedResult = "7.4";
+    expect(result).toEqual(expectedResult);
+  });
+
+  it('returns NaN for empty data', () => {
+    const result = calculateAverageRating([]);
+    const expectedResult = "NaN";
+    expect(result).toEqual(expectedResult);
+  });
+});
+
+describe('calculateAwardsReceived', () => {
+  it('calculates the total awards received correctly', () => {
+    const result = calculateAwardsReceived(data);
+    const expectedResult = 470; 
+    expect(result).toEqual(expectedResult);
+  });
+
+  it('returns 0 for empty data', () => {
+    const result = calculateAwardsReceived([]);
+    const expectedResult = 0;
+    expect(result).toEqual(expectedResult);
+  });
+});
+
+describe('calculateTotalAudience', () => {
+  it('calculates the total audience correctly', () => {
+    const result = calculateTotalAudience(data);
+    const expectedResult = "2551 M";
+    expect(result).toEqual(expectedResult);
+  });
+
+  it('returns "0 M" for empty data', () => {
+    const result = calculateTotalAudience([]);
+    const expectedResult = "0 M";
+    expect(result).toEqual(expectedResult);
+  });
+});
+

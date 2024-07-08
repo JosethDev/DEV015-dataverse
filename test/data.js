@@ -10,13 +10,15 @@ export const data = [
     "imageUrl": "https://i.pinimg.com/564x/f9/90/00/f990004bf5be977c963b43fd843c3b50.jpg",
     "facts": {
       "year": 2008,
-      "rating": "7.9",
+      "rating": "7.9/10",
       "director": "Jon Favreau",
       "duration": "126 min"
     },
-
+    "extraInfo": {
+      "awards": 22,
+      "audience": 65
+    }
   },
-
   {
     "id": "incredible_hulk_2008",
     "name": "The Incredible Hulk",
@@ -25,11 +27,14 @@ export const data = [
     "imageUrl": "https://i.pinimg.com/564x/5d/fd/be/5dfdbe1af9898cbe687650070b0da328.jpg",
     "facts": {
       "year": 2008,
-      "rating": "6.7",
+      "rating": "6.7/10",
       "director": "Louis Leterrier",
       "duration": "112 min"
     },
-
+    "extraInfo": {
+      "awards": 3,
+      "audience": 29
+    }
   },
   {
     "id": "iron_man_2_2010",
@@ -39,11 +44,14 @@ export const data = [
     "imageUrl": "https://image.tmdb.org/t/p/original/3TVd7B5JFB8MtVQ2CvWnOQ3HKem.jpg",
     "facts": {
       "year": 2010,
-      "rating": "7.0",
+      "rating": "7.0/10",
       "director": "Jon Favreau",
       "duration": "124 min"
     },
-
+    "extraInfo": {
+      "awards": 7,
+      "audience": 69
+    }
   },
   {
     "id": "thor_2011",
@@ -53,11 +61,14 @@ export const data = [
     "imageUrl": "https://image.tmdb.org/t/p/original/prSfAi1xGrhLQNxVSUFh61xQ4Qy.jpg",
     "facts": {
       "year": 2011,
-      "rating": "7.0",
+      "rating": "7.0/10",
       "director": "Kenneth Branagh",
       "duration": "115 min"
     },
-
+    "extraInfo": {
+      "awards": 5,
+      "audience": 50
+    }
   },
   {
     "id": "captain_america_2011",
@@ -67,11 +78,14 @@ export const data = [
     "imageUrl": "https://m.media-amazon.com/images/I/51Xp+8qDCbL._AC_.jpg",
     "facts": {
       "year": 2011,
-      "rating": "6.9",
+      "rating": "6.9/10",
       "director": "Joe Johnston",
       "duration": "124 min"
     },
-
+    "extraInfo": {
+      "awards": 7,
+      "audience": 41
+    }
   },
   {
     "id": "avengers_2012",
@@ -81,11 +95,14 @@ export const data = [
     "imageUrl": "https://i.ebayimg.com/images/g/ZbUAAOSwXPtkxVyM/s-l1600.webp",
     "facts": {
       "year": 2012,
-      "rating": "8.0",
+      "rating": "8.0/10",
       "director": "Joss Whedon",
       "duration": "143 min"
     },
-
+    "extraInfo": {
+      "awards":38,
+      "audience": 169
+    }
   },
   {
     "id": "iron_man_3_2013",
@@ -95,11 +112,14 @@ export const data = [
     "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_912535-MLA52539341498_112022-F.webp",
     "facts": {
       "year": 2013,
-      "rating": "7.1",
+      "rating": "7.1/10",
       "director": "Shane Black",
       "duration": "130 min"
     },
-
+    "extraInfo": {
+      "awards": 18,
+      "audience": 135
+    }
   },
   {
     "id": "thor_dark_world_2013",
@@ -109,11 +129,14 @@ export const data = [
     "imageUrl": "https://ew.com/thmb/4kqxOjcrf5APXxZllefwMcxI35Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/thor-dark-world-poster-a2c56113bf284a22942c0ef46395c5df.jpg",
     "facts": {
       "year": 2013,
-      "rating": "6.9",
+      "rating": "6.9/10",
       "director": "Alan Taylor",
       "duration": "112 min"
     },
-
+    "extraInfo": {
+      "awards": 2,
+      "audience": 72
+    }
   },
   {
     "id": "captain_america_winter_soldier",
@@ -123,23 +146,30 @@ export const data = [
     "imageUrl": "https://im.ziffdavisinternational.com/ign_es/screenshot/c/capitan-america-2-tres-carteles-de-sus-protagonist/capitan-america-2-tres-carteles-de-sus-protagonist_f8pv.jpg",
     "facts": {
       "year": 2014,
-      "rating": "7.7",
+      "rating": "7.7/10",
       "director": "Anthony and Joe Russo",
       "duration": "136 min"
     },
-
+    "extraInfo": {
+      "awards": 11,
+      "audience": 79
+    }
   },
   {
     "id": "guardians_of_the_galaxy_2014",
     "name": "Guardians of the Galaxy",
     "shortDescription": "A group of misfits bands together to save the galaxy.",
     "description": "A group of intergalactic misfits - Peter Quill, Gamora, Drax the Destroyer, Rocket, and Groot - find themselves in possession of a powerful orb sought after by the villainous Ronan the Accuser. Forced to work together despite their differences, embark on a wild adventure across the cosmos to evade Ronan and his minions. Along the way, they form a bond and discover the true power of friendship and teamwork. With its blend of humor, action, and heart, 'Guardians of the Galaxy' is a thrilling space opera that introduces a new band of unlikely heroes to the Marvel Cinematic Universe.",
-    "imageUrl": "https://pics.filmaffinity.com/guardians_of_the_galaxy-595487268-large.jpg",
+    "imageUrl": "https://m.media-amazon.com/images/I/71lbFfxfMtL._AC_UF894,1000_QL80_.jpg",
     "facts": {
       "year": 2014,
-      "rating": "8.0",
+      "rating": "8.0/10",
       "director": "James Gunn",
       "duration": "121 min"
+    },
+    "extraInfo": {
+      "awards": 52,
+      "audience": 86
     }
   },
   {
@@ -150,11 +180,14 @@ export const data = [
     "imageUrl": "https://m.media-amazon.com/images/I/7155LkI6wlL._AC_SL1015_.jpg",
     "facts": {
       "year": 2015,
-      "rating": "7.3",
+      "rating": "7.3/10",
       "director": "Joss Whedon",
       "duration": "141 min"
     },
-
+    "extraInfo": {
+      "awards": 6,
+      "audience":  156
+    }
   },
   {
     "id": "ant_man_2015",
@@ -164,11 +197,14 @@ export const data = [
     "imageUrl": "https://i.pinimg.com/564x/f5/08/a8/f508a8133fa78968a26e7091bf325716.jpg",
     "facts": {
       "year": 2015,
-      "rating": "7.3",
+      "rating": "7.3/10",
       "director": "Peyton Reed",
       "duration": "117 min"
     },
-
+    "extraInfo": {
+      "awards": 3,
+      "audience": 58
+    }
   },
   {
     "id": "captain_america_civil_war_2016",
@@ -178,11 +214,14 @@ export const data = [
     "imageUrl": "https://i.ebayimg.com/images/g/zz8AAOSw3OVjPM6f/s-l1600.webp",
     "facts": {
       "year": 2016,
-      "rating": "7.8",
+      "rating": "7.8/10",
       "director": "Anthony Russo, Joe Russo",
       "duration": "147 min"
     },
-
+    "extraInfo": {
+      "awards": 9,
+      "audience": 128
+    }
   },
   {
     "id": "doctor_strange_2016",
@@ -192,10 +231,14 @@ export const data = [
     "imageUrl": "https://i.pinimg.com/564x/91/13/79/911379ee2a1bc5388414ec692aea80d7.jpg",
     "facts": {
       "year": 2016,
-      "rating": "7.5",
-      "director": "Scott Derrickson"
+      "rating": "7.5/10",
+      "director": "Scott Derrickson",
+      "duration": "115 min"
     },
-
+    "extraInfo": {
+      "awards": 21,
+      "audience": 75
+    }
   },
   {
     "id": "guardians_galaxy_vol_2_2017",
@@ -205,10 +248,14 @@ export const data = [
     "imageUrl": "https://m.media-amazon.com/images/I/71K+P8n6sGL._AC_SY879_.jpg",
     "facts": {
       "year": 2017,
-      "rating": "7.6",
-      "director": "James Gunn"
+      "rating": "7.6/10",
+      "director": "James Gunn",
+      "duration": "137 min"
     },
-
+    "extraInfo": {
+      "awards": 15,
+      "audience": 96
+    }
   },
   {
     "id": "spider_man_homecoming_2017",
@@ -218,10 +265,15 @@ export const data = [
     "imageUrl": "https://m.media-amazon.com/images/I/71HQ7lBgbGL._AC_SL1000_.jpg",
     "facts": {
       "year": 2017,
-      "rating": "7.4",
-      "director": "Jon Watts"
-    },
+      "rating": "7.4/10",
+      "director": "Jon Watts",
+      "duration": "133 min"
 
+    },
+    "extraInfo": {
+      "awards": 8,
+      "audience": 98
+    }
   },
   {
     "id": "thor_ragnarok_2017",
@@ -231,10 +283,15 @@ export const data = [
     "imageUrl": "https://i.ebayimg.com/images/g/7VsAAOSwH35Zn5-g/s-l500.jpg",
     "facts": {
       "year": 2017,
-      "rating": "7.9",
-      "director": "Taika Waititi"
-    },
+      "rating": "7.9/10",
+      "director": "Taika Waititi",
+      "duration": "130 min"
 
+    },
+    "extraInfo": {
+      "awards": 12,
+      "audience": 95
+    }
   },
   {
     "id": "black_panther_2018",
@@ -244,8 +301,14 @@ export const data = [
     "imageUrl": "https://m.media-amazon.com/images/I/A1PaCX4oXjL._AC_SL1500_.jpg",
     "facts": {
       "year": 2018,
-      "rating": "7.3",
-      "director": "Ryan Coogler"
+      "rating": "7.3/10",
+      "director": "Ryan Coogler",
+      "duration": "134 min"
+
+    },
+    "extraInfo": {
+      "awards": 112,
+      "audience": 150
     }
   },
   {
@@ -256,10 +319,15 @@ export const data = [
     "imageUrl": "https://i5.walmartimages.com/asr/65e23347-2ccc-4581-9700-581e0ea9c3a8.a808f8889bfa9e368659fbefc5e5dda4.jpeg",
     "facts": {
       "year": 2018,
-      "rating": "8.4",
-      "director": "Anthony Russo, Joe Russo"
-    }
+      "rating": "8.4/10",
+      "director": "Anthony Russo, Joe Russo",
+      "duration": "149 min"
 
+    },
+    "extraInfo": {
+      "awards": 46,
+      "audience": 228
+    }
   },
   {
     "id": "ant_man_and_wasp_2018",
@@ -269,10 +337,15 @@ export const data = [
     "imageUrl": "https://i.pinimg.com/564x/1b/4b/fe/1b4bfee2454cae209ad096d309c621cc.jpg",
     "facts": {
       "year": 2018,
-      "rating": "7.0",
-      "director": "Peyton Reed"
-    }
+      "rating": "7.0/10",
+      "director": "Peyton Reed",
+      "duration": "118 min"
 
+    },
+    "extraInfo": {
+      "awards": 1,
+      "audience": 69
+    }
   },
   {
     "id": "captain_marvel_2019",
@@ -282,10 +355,15 @@ export const data = [
     "imageUrl": "https://f.rpp-noticias.io/2018/12/03/720182capitanamarvelposter2019final-c53ad30badae9fce1002852a37cb90fdjpg.jpg",
     "facts": {
       "year": 2019,
-      "rating": "6.8",
-      "director": "Anna Boden, Ryan Fleck"
-    }
+      "rating": "6.8/10",
+      "director": "Anna Boden, Ryan Fleck",
+      "duration": "124 min"
 
+    },
+    "extraInfo": {
+      "awards": 14,
+      "audience": 125
+    }
   },
   {
     "id": "avengers_endgame_2019",
@@ -295,10 +373,15 @@ export const data = [
     "imageUrl": "https://m.media-amazon.com/images/I/61RhWaYBp7L._AC_SY879_.jpg",
     "facts": {
       "year": 2019,
-      "rating": "8.4",
-      "director": "Anthony Russo, Joe Russo"
-    }
+      "rating": "8.4/10",
+      "director": "Anthony Russo, Joe Russo",
+      "duration": "181 min"
 
+    },
+    "extraInfo": {
+      "awards": 47,
+      "audience": 311
+    }
   },
   {
     "id": "spider_man_far_from_home_2019",
@@ -308,10 +391,15 @@ export const data = [
     "imageUrl": "https://m.media-amazon.com/images/I/910t9BoIymL._AC_SY879_.jpg",
     "facts": {
       "year": 2019,
-      "rating": "7.5",
-      "director": "Jon Watts"
-    }
+      "rating": "7.5/10",
+      "director": "Jon Watts",
+      "duration": "129 min"
 
+    },
+    "extraInfo": {
+      "awards": 4,
+      "audience": 125
+    }
   },
   {
     "id": "black_widow_2021",
@@ -321,8 +409,14 @@ export const data = [
     "imageUrl": "https://m.media-amazon.com/images/I/91-liN-0JbS._AC_SY879_.jpg",
     "facts": {
       "year": 2021,
-      "rating": "6.8",
-      "director": "Cate Shortland"
+      "rating": "6.8/10",
+      "director": "Cate Shortland",
+      "duration": "134 min"
+
+    },
+    "extraInfo": {
+      "awards": 7,
+      "audience": 42
     }
   }
 ];

@@ -1,9 +1,7 @@
 export const renderItems = (data) => {
-  console.log(data)
 
   // Creación elemento <ul> utilizando createElement
   const ulElement = document.createElement('ul');
-
   ulElement.classList.add('cards');
 
   // Recorrer la data mediante un bucle forEach
@@ -18,7 +16,11 @@ export const renderItems = (data) => {
     //Agregar contenido HTML interno dentro de <li>
     liElement.innerHTML = `
       <dl itemscope itemtype= "marvelMovies">
-      <img src="${item.imageUrl}" alt="${item.imageDescription}"/>
+      <div class="movie-item">
+        <img src="${item.imageUrl}" alt="${item.imageDescription}" class="movie-image"/>
+        <button class="play-button" data-trailer="${item.facts.trailer}">&#9658</button>
+
+      </div>
       <section class="texto">
         <dt>Year:</dt><dd itemprop="year">${item.facts.year}</dd>
         <dt>Name</dt><dd itemprop="name">${item.name}</dd>
