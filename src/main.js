@@ -99,18 +99,17 @@ function showTrailerModal(trailerUrl) {
     }
   });
 }
-document.addEventListener('DOMContentLoaded', function() {
+
+function showMenu(){
   const toggleButton = document.querySelector('.filter-menu-toggle');
   const filterMenu = document.querySelector('.filter-menu');
 
   toggleButton.addEventListener('click', function() {
-    if (filterMenu.style.display === 'none' || filterMenu.style.display === '') {
-      filterMenu.style.display = 'block';
-    } else {
-      filterMenu.style.display = 'none';
-    }
+    filterMenu.classList.toggle('show');
   });
-});
+}
+
+showMenu()
 
 // Llamar a la función initStatistics cuando se cargue la página
 document.addEventListener('DOMContentLoaded', initStatistics)

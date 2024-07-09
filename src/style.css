@@ -70,12 +70,6 @@ option {
   font-size: 12px;
   padding: 10px;
 }
-.filter-menu {
-  display: block; /* Asegura que el menú de filtros esté visible por defecto */
-  position: static; /* Cambia a estático para la vista web estándar */
-  padding: 10px;
-  box-sizing: border-box;
-}
 
 #filter-year {
   border-radius: 6px;
@@ -367,6 +361,13 @@ html, body {
     left: 0px;
     margin: auto;
     text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .filter-menu.show {
+    display: block; /* Asegura que el menú de filtros esté visible por defecto */
+    position: absolute; /* Cambia a estático para la vista web estándar */
     padding: 10px;
     box-sizing: border-box;
   }
