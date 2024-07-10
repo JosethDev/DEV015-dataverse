@@ -1,0 +1,410 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+
+}
+header {
+  background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)),
+    url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2019/03/Vengadores%20Infinity%20War.jpg?tf=2048x");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  padding-left: 80px;
+}
+
+h1 {
+  font-size: 56px;
+  width: 520px;
+  height: 120px;
+  margin: 5px;
+  line-height: 1;
+}
+h2 {
+  font-size: 15px;
+  width: 400px;
+  height: 42px;
+  font-weight: 300;
+  margin: 5px;
+}
+
+p {
+  width: 300px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.stats {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: leftn;
+  gap: 30px;
+}
+.stat-item {
+  text-align: center;
+}
+
+.stat-item div:first-child {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.stat-item div:last-child {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+select {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 7px;
+  margin: 4px;
+}
+
+option {
+  font-size: 12px;
+  padding: 10px;
+}
+
+#filter-year {
+  border-radius: 6px;
+  margin-right: 20px;
+}
+#filter-rating {
+  border-radius: 6px;
+  margin-right: 20px;
+}
+#sort {
+  border-radius: 6px;
+  margin-right: 25px;
+}
+
+#button-clear {
+  font-size: 14px;
+  height: 33.5px;
+  border-radius: 6px;
+  width: 120px;
+  border-color: #ffc700;
+  background-color: #ffc700;
+  border: 0px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 0.5s;
+}
+
+footer {
+  padding-left: 44%;
+  padding-right: 30%;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 2%;
+
+}
+
+img {
+  width: 215px;
+  height: 318.2px;
+  border-radius: 14px;
+}
+
+.rating-image {
+  width: 35px;
+  height: 17px;
+  border-radius: 0px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0px;
+  list-style-type: none;
+}
+
+dt {
+  display: none;
+}
+
+dd {
+  padding-bottom: 8px;
+  margin-right: 15px;
+}
+[itemprop="name"] {
+  font-weight: bold;
+  color: black;
+  font-size: 19px;
+}
+[itemprop="year"] {
+  font-weight: 600;
+  color: #8e8f91;
+  font-size: 14px;
+}
+
+dl {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  width: 500px;
+  height: 280px;
+  margin: 10px;
+  color: black;
+  border-radius: 6px;
+  padding-left: 25px;
+  background: rgb(237, 237, 237);
+  position: relative;
+}
+
+.rating-image {
+  width: 30px; /* Ancho deseado */
+  height: auto;
+}
+
+/* Estilo base para los elementos que contienen los números */
+.stats .stat-item {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.modal {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+}
+
+.trailer-video{
+  width: 660px;
+  height: 415px;
+}
+
+.close-button {
+  position: absolute;
+  right: 10px;
+  font-size: 24px;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.item {
+  position: relative;
+  display: inline-block;
+}
+
+.item:hover .play-button {
+  display: flex;
+}
+
+.movie-item {
+  position: relative;
+  display: inline-block;
+}
+
+.movie-image {
+  display: block; /* Asegura que la imagen no tenga márgenes por defecto */
+  width: 154px; /* Asegura que la imagen tome todo el espacio del contenedor */
+  height: auto;
+  border-radius: 10px;
+}
+
+.play-button {
+  display: none; /* Escondemos el botón inicialmente */
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: red;
+  font-size: 15px;
+  padding: 5px 10px;
+  width: 31%;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+
+.play-button img {
+  max-width: 100%;
+  height: auto;
+  width: 30px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.filter-menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 36px;
+    width: 100%;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+  }
+
+  p {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    margin-left: 0;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  .item {
+    padding-left: 0%;
+    margin-right: 30px;
+    margin-right: 30px;
+  }
+  .cards {
+    padding-left: 20px;
+  }
+  img {
+    width: 150px;
+    height: 248px;
+    margin-left: 10px;
+  }
+  .rating-image {
+    width: 30px;
+    margin-right: 5px;
+  }
+  dd {
+    margin-right: 10px;
+    margin-left: 15px;
+    font-size: 11px;
+  }
+
+  [itemprop="name"] {
+  font-size: 14px;
+  }
+
+  .stat-item div:first-child {
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .trailer-video{
+    width: auto;
+    height: auto;
+  }
+  main {
+    align-items: flex-start;
+    align-content: space-between;
+    flex-direction: row;
+    background-color: #e3b719;
+  }
+  .filter-menu-toggle {
+    display: block;
+    width: 60%;
+    margin: 10px 0%;
+    padding: 10px;
+    background-color: transparent;
+    border: 0px;
+
+  }
+  .filter-menu {
+    position: absolute;
+    display: none;
+    z-index: 1001;
+    height: auto;
+    background: #e3b719;
+    width: 100%;
+    max-width: 300px;
+    background: #e3b719;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .filter-menu.show {
+    display: block; /* Asegura que el menú de filtros esté visible por defecto */
+    position: absolute; /* Cambia a estático para la vista web estándar */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .filter-menu label {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  #button-clear {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 22px;
+    text-align: left;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #333;
+    font-size: 14px;
+    color:#fff;
+    padding-left: 32px;
+    font-weight: bold;
+  }
+
+  .img-menu {
+    width: 40px;
+    height: auto;
+  }
+
+  .f-filter{
+    display:block;
+  }
+
+}
+
+
